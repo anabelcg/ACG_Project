@@ -21,5 +21,5 @@ do
 	ask_answer
 done
 
-echo "Well done! It is the correct answer, here is the list of files:"
-echo "---" && ls -1
+echo "Well done! It is the correct answer:"
+echo "---" && ls -1 | wc -l
